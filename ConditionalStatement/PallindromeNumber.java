@@ -7,7 +7,7 @@ public class PallindromeNumber {
         int r,sum = 0;
         int temp = n;
         while( n > 0){
-            r = n % 10;
+            r = n % 10; //Reminder
             sum = (sum * 10) + r;
             n =n / 10;
         }
@@ -19,3 +19,4 @@ public class PallindromeNumber {
         sc.close();   
     }
 }
+//complete
